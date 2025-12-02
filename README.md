@@ -1,80 +1,74 @@
-# Vaiu Weather Voice Assistant
+# VaiuAI Weather Voice Assistant
 
-A voice-powered weather assistant built with Next.js and the Web Speech API. Ask about the weather in any city using your voice!
+A modern weather assistant powered by your voice. Built with Next.js and the Web Speech API, the app lets you ask about the weather in any city and receive natural, spoken responses.
 
-## 🎯 Features
+## Features
 
-- **Voice Input/Output**: Speak your query and hear the response
-- **Real-time Weather**: Fetches current weather data from OpenWeatherMap
-- **Forecast Support**: Get tomorrow's weather forecast
-- **Natural Responses**: Generates conversational weather responses
-- **Error Handling**: Graceful handling of unknown cities and API failures
-- **Beautiful UI**: Modern, dark-themed interface with weather cards
+- **Voice Commands:** Simply speak your question—no typing needed.
+- **Live Weather Data:** Real-time weather updates using OpenWeatherMap.
+- **Forecasts:** Get both current and next-day forecasts.
+- **Conversational Replies:** Human-friendly, voice-based responses.
+- **Robust Error Handling:** Handles unknown cities and API errors gracefully.
+- **Sleek UI:** Dark-themed, visually-rich weather cards.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
-- Node.js 18+ installed
-- A modern browser (Chrome, Edge, or Safari recommended)
+- Node.js (v18 or newer)
+- Chrome, Edge, or Safari browser
 - OpenWeatherMap API key (free tier available)
 
 ### Installation
 
-1. **Clone the repository**
-   \`\`\`bash
-   git clone https://github.com/yourusername/vaiu-weather-assistant.git
-   cd vaiu-weather-assistant
-   \`\`\`
+1. **Clone this repository:**
+    ```bash
+    git clone https://github.com/jayanththalla/vaiuai-task.git
+    cd vaiuai-task
+    ```
 
-2. **Install dependencies**
-   \`\`\`bash
-   npm install
-   # or
-   pnpm install
-   \`\`\`
+2. **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    pnpm install
+    ```
 
-3. **Set up environment variables**
-   
-   Create a `.env.local` file in the root directory:
-   \`\`\`env
-   OPENWEATHERMAP_API_KEY=your_api_key_here
-   \`\`\`
+3. **Configure environment variable:**
+    Create a `.env.local` file in the project root:
 
-   > **Note**: Get your free API key at [OpenWeatherMap](https://openweathermap.org/api)
+    ```
+    OPENWEATHERMAP_API_KEY=your_api_key_here
+    ```
 
-4. **Run the development server**
-   \`\`\`bash
-   npm run dev
-   # or
-   pnpm dev
-   \`\`\`
+    [Get your API key here.](https://openweathermap.org/api)
 
-5. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+4. **Run the development server:**
+    ```bash
+    npm run dev
+    # or
+    pnpm dev
+    ```
 
-## 🎤 How to Use
+5. **Access the app:**
+   Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-1. Click the **microphone button** to start listening
-2. Speak your weather query, for example:
-   - "What's the weather in Mumbai?"
-   - "How about Bangalore?"
-   - "Will it rain in Pune tomorrow?"
-3. The assistant will fetch the weather and respond with voice
+## Usage
 
+1. Click the **microphone** button.
+2. Ask about the weather (Examples: "What's the weather in Mumbai?", "Will it rain in Pune tomorrow?").
+3. Receive responses both on-screen and via speech output.
 
-## 🔑 Getting an API Key
+## Getting an OpenWeatherMap API Key
 
-1. Go to [OpenWeatherMap](https://openweathermap.org/api)
-2. Click "Sign Up" and create a free account
-3. Navigate to "API Keys" in your account
-4. Copy your API key
-5. Add it to your `.env.local` file
+1. Sign up at [OpenWeatherMap](https://openweathermap.org/api)
+2. Go to your account's "API Keys" section.
+3. Copy your key and add it to `.env.local` as shown above.
 
-## 📄 License
+## License
 
-MIT License - Feel free to use this code for your projects!
+MIT — Use freely in your own projects.
 
 ---
 
-Built with ❤️ for the Vaiu AI Software Developer Internship
+Built with ❤️ during the Vaiu AI Software Developer Internship.
