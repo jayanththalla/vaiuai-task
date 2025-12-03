@@ -65,6 +65,9 @@ A modern weather assistant powered by your voice. Built with Next.js and the Web
 2. Go to your account's "API Keys" section.
 3. Copy your key and add it to `.env.local` as shown above.
 
+## Demo
+https://drive.google.com/file/d/184QbQqj74_bvC_a8Ucm_3n9Bdg1M-ZTs/view?usp=sharing
+
 ## License
 
 MIT — Use freely in your own projects.
